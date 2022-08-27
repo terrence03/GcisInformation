@@ -1,4 +1,3 @@
-# %%
 from typing import List
 from dataclasses import dataclass
 import requests
@@ -391,5 +390,3 @@ def get_gcis_information(uni: str) -> dict:
             return Branch(uni).information
         case "Business":
             return Business(uni).information
-
-# %%
