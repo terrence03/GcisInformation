@@ -5,5 +5,11 @@ Get information about companies or businesses in Taiwan with Unified Business No
 
 (商工行政資料開放平臺：https://data.gcis.nat.gov.tw/main/index)
 
-## Note注意事項
+## 環境
+python 3.10 以上
+
+## 使用套件
+- requests
+
+## 注意事項
 - 部分查詢功能需要先向商工行政資料開放平臺申請使用IP，否則無法正常使用。
